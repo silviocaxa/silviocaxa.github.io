@@ -1,0 +1,88 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+p {
+    font-size: 1.2rem;
+    font-family: Arial;   
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(2, 53, 2);
+    text-decoration: none;
+
+}
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(2, 53, 2);
+    text-decoration: none;
+
+}
+h3 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(106, 155, 34);
+    text-decoration: none;
+
+}
+h4 {
+    text-align: center;
+    margin-top: 30px;
+    color: green;
+    text-decoration: none;
+
+}
+
+.header {
+   background-color: #1d1e20;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 20px;
+   align-items: center;
+
+}
+header img {
+    background-color: white;
+}
+.menu  {
+    display:  flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+/*    background-color: tomato; */
+}
+.flex > div {
+    flex: 1 1 300px;
+    margin:20px;
+}
+a:hover {
+   background-color: red;
+   border-radius: 10%;
+   border-color: green;
+}
